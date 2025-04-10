@@ -64,7 +64,7 @@ st.markdown(
 #st.snow()
 
 with st.sidebar:
-    st.sidebar.image(icon, use_container_width=True)  # Updated parameter
+    st.sidebar.image(icon)  # Updated parameter
     selected = option_menu(
         menu_title="Main Menu",
         options=["Home", "Project Details", "Contact"],

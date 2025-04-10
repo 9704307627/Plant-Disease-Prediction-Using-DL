@@ -8,7 +8,7 @@ from streamlit_option_menu import option_menu
 import os
 
 # Page icon
-icon = Image.open(r"C:\Users\K. Lathika\Downloads\Plant Diesease Prediction\Logo.jpg")
+icon = Image.open(r"Logo.jpg")
 
 # Page configuration
 st.set_page_config(
@@ -24,7 +24,7 @@ st.text("")
 st.text("")
 
 # Page Styling
-background_image_path = r"C:\Users\K. Lathika\Downloads\Plant Diesease Prediction\Logo.jpg"
+background_image_path = r"Logo.jpg"
 
 st.markdown(
     f"""
@@ -279,7 +279,7 @@ elif selected == "Project Details":
     - Provide advanced analytics for long-term crop management.
     """)
     st.write("")
-    image = r"C:\Users\K. Lathika\Downloads\Plant Diesease Prediction\Logo.jpg"
+    image = r"Logo.jpg"
     image = Image.open(image)
     st.image(image, caption="AI-Based Plant Health Monitoring System", width=500, use_container_width=True)  # Updated parameter
 
@@ -295,7 +295,7 @@ elif selected == "Contact":
             "Roll_Number": "21ME1A5407",
             "Contact": "8919123783",
             "Mail": "ramyachallagolla79@gmail.com",
-            "image_path": r"C:\Users\K. Lathika\Downloads\Plant Diesease Prediction\ramya.jpg",
+            "image_path": r"ramya.jpg",
             "role": "Team Lead"
         },
         {
@@ -303,7 +303,7 @@ elif selected == "Contact":
             "Roll_Number": "21ME1A5423",
             "Contact": "9704307627",
             "Mail": "lathikalilly5459@gmail.com",
-            "image_path": r"C:\Users\K. Lathika\Downloads\Plant Diesease Prediction\lilly.jpg",
+            "image_path": r"lilly.jpg",
             "role": "Member"
         },
         {
@@ -311,7 +311,7 @@ elif selected == "Contact":
             "Roll_Number": "21ME1A5415",
             "Contact": "9182360110",
             "Mail": "satishd11223@gmail.com",
-            "image_path": r"C:\Users\K. Lathika\Downloads\Plant Diesease Prediction\ravi.jpg",
+            "image_path": r"ravi.jpg",
             "role": "Member"
         },
         {
@@ -319,7 +319,7 @@ elif selected == "Contact":
             "Roll_Number": "21ME1A5465",
             "Contact": "9014660399",
             "Mail": "chowdaryvyshnavi285@gmail.com",
-            "image_path": r"C:\Users\K. Lathika\Downloads\Plant Diesease Prediction\vysh.jpg",
+            "image_path": r"vysh.jpg",
             "role": "Member"
         }
     ]
